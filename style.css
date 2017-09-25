@@ -1,0 +1,55 @@
+/**
+* style.css
+* Simple_Starter_Web_Page
+* 
+* Created by Kar Beringer.
+* Updated 24 Sepmtember 2017.
+*
+* This is a stylesheet for index.html.
+*/
+
+body {
+	background: #eeeeee;
+  color: #1e1e1e;
+  font-family: sans-serif;
+  padding: 1em;
+}
+
+h1, h2 {
+  color: #ff0040;
+}
+
+input[type=text], select {
+    max-width: 50px;
+    padding: 1em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.blackButton {
+    background: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.grayRoundedBox {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #aaaaaa;
+  padding: 1em;
+}
+
+.blackButton:hover {
+  opacity: 0.75;
+}
